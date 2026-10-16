@@ -1,0 +1,21 @@
+{
+  "name": "Player CLI",
+  "version": "1.0.0",
+  "minimum-app-version": "1.5.0",
+  "app-version": "1.5.0",
+  "id": "com_entenwilli_StreamControllerPlayer",
+  "github": "https://github.com/Entenwilli/StreamControllerPlayer",
+  "thumbnail": "thumbnail.png",
+  "descriptions": {
+    "en_US": "Control the player-cli background audio player from your Stream Deck: play or stop individual tracks (optionally looping or fading in/out), stop or pause/resume everything at once, and nudge the master volume up or down (dial-compatible). Play/Stop Track, Pause/Resume All, and Adjust Volume can each be retargeted at Spotify instead, controlling it over MPRIS via `playerctl` - no Spotify Web API needed. Requires the player-cli binary (https://github.com/fschwickerath/player-cli) to be installed and on PATH, or its path set in the plugin settings.",
+    "de_DE": "Steuere den player-cli Hintergrund-Audioplayer über dein Stream Deck: einzelne Tracks abspielen oder stoppen (optional mit Loop oder Ein-/Ausblenden), alles gleichzeitig stoppen oder pausieren/fortsetzen und die Gesamtlautstärke anpassen (drehreglerfähig). „Track abspielen/stoppen“, „Alle pausieren/fortsetzen“ und „Lautstärke anpassen“ lassen sich jeweils auch auf Spotify umschalten und steuern es per MPRIS über `playerctl` - ganz ohne Spotify-Web-API. Setzt voraus, dass die player-cli-Binary installiert und im PATH ist, oder ihr Pfad in den Plugin-Einstellungen gesetzt wurde."
+  },
+  "short-descriptions": {
+    "en_US": "Control player-cli playback from your Stream Deck.",
+    "de_DE": "Steuere player-cli über dein Stream Deck."
+  },
+  "tags": [
+    "Audio",
+    "Utility"
+  ]
+}
